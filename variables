@@ -1,0 +1,35 @@
+/// How to define variables///
+We can define a variable by using the syntax variable_name=value. To get the value of the variable, add $ before the variable.
+
+#!/bin/bash
+# A simple variable example
+greeting=hello
+name=srihari
+echo $greeting $name
+
+Output : hello srihari
+
+/// Arithmetic Expressions ///
+Below are the operators supported by bash for mathematical calculations:
+
+OPERATOR    	USAGE
++         	addition
+-	          subtraction
+*	          multiplication
+/         	division
+**	        exponentiation
+%	          modulus
+
+
+///Numerical expressions can also be calculated and stored in a variable using the syntax below:
+
+var=$((expression))
+
+Let's try an example.
+#!/bin/bash
+
+var=$((3+9))
+echo $var
+
+output: 12
+///
