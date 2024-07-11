@@ -1,0 +1,21 @@
+#### Execution rights ####
+* Scripts have execution rights for the user executing them.
+
+An execution right is represented by x. In the example below, my user has the rwx (read, write, execute) rights for the file test_script.sh
+https://www.freecodecamp.org/news/content/images/2022/03/image-98.png
+
+### File colour
+* Executable scripts appear in a different colour from rest of the files and folders.
+
+In my case, the scripts with execution rights appear as green.
+https://www.freecodecamp.org/news/content/images/2022/03/image-99.png
+
+### How to Create Your First Bash Script
+* Let's create a simple script in bash that outputs Hello World.
+
+//Create a file named hello_world.sh//
+touch hello_world.sh
+//Find the path to your bash shell//
+which bash
+https://www.freecodecamp.org/news/content/images/2022/03/image-100.png
+In my case, the path is /usr/bin/bash and I will include this in the shebang.
